@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<!--
+    Block content (Div)
+     -action
+     -method (GET¨Padrão¨)
+        
+     fieldset
+     -form(identifica id de formulario)
+
+-->
+<body>
+    <form action="" method="post">
+        <fieldset name="Contato" >
+            <legend>Preencha o formulário para contato</legend>
+            
+        </fieldset>
+        <!--Label
+            *Associar e identificar um ou mais tags de entraga de dados
+            *Ajuda na acessibilidade
+        Atibutos
+            -for
+                *Usado para fazer a conexão com outros tipos de elementos de formulários-->
+
+        <label>
+            Nome:
+            <input type="text" name="" id="">
+        </label>
+
+        <label for="age">
+            Idade:
+        </label>
+        <input type="namber" name="Idade" id="age">
+
+        
+        
+        <!--Button - Botão -->
+        <button type="button" name="" class="" id="">Limpar</button>
+    </form>
+    <form action="" method="post">
+        <fieldset name="contato">
+            <legend>Preencha o formulario para contato</legend>
+        </fieldset>
+        <!--<datelist>
+            *Lista de valores com sugestão para algum elemento input
+            *Usuário poderá selecionar um dos valores ou colocar novos valores-->
+
+        <!--Lista de professores-->
+        <datalist id="prof-list">
+            <option>Luan</option>
+            <option>Jenifer</option>
+            <option>Regis</option>
+        </datalist>
+
+        <input type="text" list="prof-list" placeholder="Escolha seu professor">
+
+
+    </form>
+
+</body>
+</html>

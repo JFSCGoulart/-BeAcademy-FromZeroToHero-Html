@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <caption>Tabela de professores</caption>
+    
+    <table>
+        <!--Caption
+        Inserir Titulso na tabela-->
+        <thead>       
+            <tr>
+            <th>Professor</th>
+            <th>Idade</th>
+            <th>Curso</th>
+            </tr>
+    </thead>
+
+        <tbody>
+            <tr>
+                <td>Luan</td>
+                <td>30</td>
+                <td>Front-End</td>
+            </tr>
+    
+            <tr>
+                <td>Jenifer</td>
+                <td>30</td>
+                <td>Economia</td>
+            </tr>
+            <tr>
+                <td>Regis</td>
+                <td>35</td>
+                <td>PhP</td>
+            </tr>
+            <tr>
+                <td>Moacir</td>
+                <td>20</td>
+                <td>Office</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total de professores</td>
+                <td>4</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!--Tabela Complexa
+    rowpan - mesclar coluna
+    colspan - mesclar linha-->
+    <table>
+        <caption>Professores be.academy</caption>
+
+        <colgroup>
+            <col span="1" style="background: rebeccapurple;">
+            <col span="2" style="background: aquamarine;">
+            <col span="1" style="background: pink;">
+        </colgroup>
+        
+        <thead>
+            <tr>
+                <th rowspan="2">Be.Academy</th>
+                <th colspan="2">Professorer Front-End</th>
+                <th colspan="2">Professor Back-End</th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th>Entrada</th>
+                <th>Saída</th>
+                <th>Entrada</th>
+                <th>Saída</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Horário de Sexta-feira</th>
+                <th>08:00</th>
+                <th>15:00</th>
+                <th>09:00</th>
+                <th>15:00</th>
+            </tr>
+            <tr>
+                <th>Horário de Sábado</th>
+                <th>08:00</th>
+                <th>14:00</th>
+                <th>08:00</th>
+                <th>14:00</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+</html>
