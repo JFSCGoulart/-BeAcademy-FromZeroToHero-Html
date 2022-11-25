@@ -1,0 +1,30 @@
+ul {
+    position: relative;
+}
+/*ul li::after {
+        content:'Alguma-coisa';
+        color: red;
+        font-size: 15px;
+    }*/
+
+ul li::after {
+    content: '';
+    background-color: red;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    }
+ul li::before {
+    content: '';
+    background-color: blue;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+        }
+
+p::first-line{
+    color: red;
+}

@@ -24,7 +24,7 @@ ul li:nth-child(odd){
     color: aliceblue;
 }*/
 
-.btn-submit{
+/*.btn-submit{
     padding: 12px;
     color: white;
     background: rgb(0, 111, 215);
@@ -60,3 +60,4 @@ input[type=text]:disabled{
 input[type=text]:disabled::placeholder{
     color: white;
 }
+*/
